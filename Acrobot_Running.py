@@ -151,7 +151,7 @@ if __name__ == '__main__':
 
     lambda_, lambda_Q = prog.NewSosPolynomial(Variables(x), l_deg) 
 
-    print('Reached here so LOL')
+    print('Reached here 1')
 
     #prog.AddSosConstraint(-Vdot + lambda_*(V - rho))
 
@@ -174,4 +174,4 @@ if __name__ == '__main__':
     print(np.linalg.eigvals(result.GetSolution(lambda_Q)))
 
 
-    print('Reached here succeffuly. Suck it!')
+    print('Reached here succeffuly')
